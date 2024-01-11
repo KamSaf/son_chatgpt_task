@@ -13,6 +13,6 @@
   </header>
   <content>
     <paragraph>This is the first paragraph.</paragraph>
-    <paragraph>This is the second paragraph with <emph>italicized</emph> text.</paragraph>
+    <paragraph>This is second paragraph.</paragraph>
   </content>
 </document>
