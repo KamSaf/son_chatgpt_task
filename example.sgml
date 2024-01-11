@@ -1,0 +1,18 @@
+<!DOCTYPE document [
+  <!ELEMENT document (header, content)>
+  <!ELEMENT header (title, author)>
+  <!ELEMENT content (paragraph+)>
+  <!ELEMENT paragraph (#PCDATA)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT author (#PCDATA)>
+]>
+<document>
+  <header>
+    <title>Document Title</title>
+    <author>Name Lastname</author>
+  </header>
+  <content>
+    <paragraph>This is the first paragraph.</paragraph>
+    <paragraph>This is the second paragraph with <emph>italicized</emph> text.</paragraph>
+  </content>
+</document>
